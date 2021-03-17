@@ -9,8 +9,5 @@
 
 ### TECNOLOGIAS ENVOLVIDAS:
 
-    JAVA
-    HTML
-    CSS
-    MYSQL
-    JDBC
+    JAVA   HTML   CSS MYSQL   JDBC
+  
