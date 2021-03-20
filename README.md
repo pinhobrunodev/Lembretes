@@ -1,4 +1,4 @@
-###                                                    PROJETO LEMBRETES  📕
+###                                                    PROJETO:  LEMBRETES  📕
 
 
 ### REALIZADO POR :
