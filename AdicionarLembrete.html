@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lembretes - Home</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="img/sino.png">
+</head>
+
+<bodys>
+    <section id="cadastro">
+        <img src="img/lembrete.png" alt="">
+        <h2>Digite o que você deseja lembrar !</h2>
+     
+       <form action="insert" method="POST" name="adicionarLembrete">
+            
+            <div id="entrada">
+                <label for="">
+                    <span>Nome do Lembrete: </span> <br>
+                    <input type="text" name="titulo" required placeholder="Digite o Nome do lembrete"> 
+                </label>
+                
+            </div>
+            <div id="textArea">
+                <label for="">
+                    <span>Informações sobre o lembrete:</span> <br>
+                    <textarea name="msg" cols="60" rows="15" ; style="resize:none" placeholder="Conte o que irá fazer..."></textarea>
+                </label>
+                
+            </div>
+
+            <div id="enviar">
+                <a href=""><input type="submit"></a>
+            </div>
+        </form>
+        </fieldset>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,314 @@
+body{
+    background: linear-gradient(to bottom, #aa3bff, #550098);
+    height:800px;
+}
+
+
+/* Tela de Login */ 
+
+
+#logar{
+    width: 60%;
+    height: 69%;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(to bottom, #fdfdff, #dedefa);
+    border-radius: 320px;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 5px 5px 20px #310058;
+    min-width: 80%;
+}
+
+#logar img{
+    margin-top: 30px;
+    width: 250px;
+    height: 250px;
+    animation: animacao-caixa 2s 1s infinite alternate ;
+}
+
+#logar h2{
+    font-family: "Troutbeck";
+    margin-top: 20px;
+    font-size: 90px;
+    margin-bottom: -30px;
+    color: #8f00ff;
+    
+}
+#logar h3{
+    font-family: "Troutbeck";
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:  #310058;
+}
+
+#logar input{
+    background: #a127ff;
+    color: #fff;
+    border-radius: 60px;
+    outline: none;
+    padding: 20px;
+    width: 130px;
+    border: #a127ff solid 3px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+}
+#logar input:hover{
+    background: #8f00ff;
+    color: #fff;
+    border-radius: 60px;
+    outline: none;
+    padding: 22px;
+    width: 140px;
+    border: #8f00ff solid 3px;
+    transition: all 1s;
+}
+
+@keyframes animacao-caixa{
+    from{
+        /* Inicial */
+        width: 250px;
+        height: 250px;
+        
+    } 
+    to{
+        /* Final */
+        margin-top: -10px;
+        height: 290px;
+        width: 290px;
+        
+    }
+}
+
+@font-face {
+    font-family: "Troutbeck";
+    src: url(fonts/Troutbeck-DEMO.woff);
+}
+
+
+/* Tela de Cadastro */ 
+
+#cadastro{
+
+    background: linear-gradient(to bottom, #aa3bff, #550098);
+    box-shadow: 5px 5px 30px #310058;
+    height: 700px;
+    width: 500px;
+    border-radius: 20px ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    text-align: center;
+}
+
+
+
+#cadastro h2{
+    margin: 20px auto;
+    width: 70%;
+    font-family: "Troutbeck";
+    color: #fff;
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-shadow: #310058 2px 2px;
+}
+
+
+#cadastro #entrada input{
+    border-radius: 14px;
+    width: 70%;
+    background-color: #310058;
+    color: #fff;
+    outline: none;
+    height: 30px;
+    text-indent: 13px;
+    box-shadow: #310058 5px 5px 20px;
+    border: solid #310058 1px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+#cadastro #textArea textarea{
+    border-radius: 12px;
+    width: 70%;
+    background-color: #310058;
+    color: #fff;
+    outline: none;
+    height: 60px;
+    text-indent: 13px;
+    box-shadow: #310058 5px 5px 20px;
+    border: solid #310058 1px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+
+#cadastro img{
+    margin-top: 40px;
+    height: 180px;
+    margin-bottom: -10  0px;
+}
+
+
+#entrada{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+
+#enviar input{
+    font-size: 20px;
+    text-shadow: 1px 1px #aa3bff;
+    box-shadow: #310058 5px 5px 20px;
+    margin-top: 30px;
+    border-radius: 30px;
+    height: 50px;
+    font-weight: bold;
+    width: 70%;
+    background-color: #310058;
+    border: solid #310058 1px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+#enviar input:hover{
+    border: solid #aa3bff 2px;
+}
+
+
+label span{
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+/* Tela de lembretes */
+
+#white{
+    background: linear-gradient(to bottom, #e9e9e7, #eeeeec, #d8d7d4) ;
+    height: 100%;
+}
+
+
+
+#conteudo{
+    margin: 20px auto;
+    background: linear-gradient(to bottom, #aa3bff, #550098);
+    height: auto;
+    width: 80%;
+    display: flex;
+    box-shadow: #040007 5px 5px 20px;
+    margin-top: 70px;
+    margin-bottom: 400px;
+    
+    
+    flex-direction: row;    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+    
+    border-radius: 30px;
+}
+
+
+.item{
+    width: 20%;
+    height: 400px;
+    margin: 10px;
+    background: linear-gradient(to bottom, #e9e9e7, #eeeeec, #d8d7d4) ;
+    box-shadow: #310058 5px 5px 20px;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #310058;
+}
+
+#buttons{
+    margin-top: 90%;
+    text-align: center;
+    
+}
+
+#buttons #edit{
+    border: #00ff6c solid 1px;
+    background-color: #00ff6c;
+    border-radius: 20px;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    margin-right: 10px;
+}
+#buttons #edit:hover{
+    border: #00d358 solid 1px;
+    background-color: #00d157;
+   
+}
+
+#buttons #excluir{
+    border: #ff0024 solid 1px;
+    background-color: #ff0024;
+    border-radius: 20px;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+#buttons #excluir:hover{
+    border: #c4001a solid 1px;
+    background-color: #c4001a;
+   
+}
+
+#white h2{
+    margin-top: 3px;
+    text-align: center;
+    font-family: "troutbeck";
+    color: #a024ff;
+    font-size: 90px;
+    text-shadow: #161616 2px 2px;
+}
+
+#adicionar{
+    background-color: #310058;
+    border-radius: 20px;
+    border: #8f00ff;
+    height: 40px;
+    width: 400px;
+    box-shadow: #310058 1px 1px 5px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20 auto;
+    outline: none;
+    
+}
+#adicionar:hover{
+    
+    
+    background-color: #310058;
+    border-radius: 20px;
+    border: #8f00ff solid 2px;
+
+    
+}
+
+.adicionar{
+    margin-top: -60px;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+
+    
+
+
+
+
